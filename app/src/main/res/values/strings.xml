@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SensorDemo</string>
+
+    <string name="sensor_pressure">Pressure Sensor：</string>
+    <string name="sensor_data">数值: %fhPa</string>
+    <string name="sensor_accuracy">精度：%d</string>
+    <string name="converted_altitude">海拔高度：%f米</string>
 </resources>
