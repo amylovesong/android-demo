@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="vibrateFor500ms"
+        android:onClick="onVibrateFor500ms"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="customVibratePatternNoRepeat"
+        android:onClick="onCustomVibratePatternNoRepeat"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="customVibratePatternRepeatFromSpecificIndex"
+        android:onClick="onCustomVibratePatternRepeatFromSpecificIndex"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="createOneShotVibrationUsingVibrationEffect"
+        android:onClick="onCreateOneShotVibrationUsingVibrationEffect"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="createWaveFormVibrationUsingVibrationEffect"
+        android:onClick="onCreateWaveFormVibrationUsingVibrationEffect"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="createWaveFormVibrationUsingVibrationEffectAndAmplitude"
+        android:onClick="onCreateWaveFormVibrationUsingVibrationEffectAndAmplitude"/>
+
+</LinearLayout>
