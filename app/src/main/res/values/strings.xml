@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SensorDemo</string>
+    <string name="app_name">AndroidDemo</string>
 
     <string name="sensor_pressure">Pressure Sensor：</string>
     <string name="sensor_data">数值: %fhPa</string>

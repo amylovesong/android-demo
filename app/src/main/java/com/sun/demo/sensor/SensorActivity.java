@@ -1,4 +1,4 @@
-package com.sun.sensordemo;
+package com.sun.demo.sensor;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -10,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.SparseArray;
 import android.widget.TextView;
+
+import com.sun.demo.R;
 
 public class SensorActivity extends AppCompatActivity {
     private static final String TAG = "SensorActivity";
